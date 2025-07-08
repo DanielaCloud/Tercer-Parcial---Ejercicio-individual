@@ -26,3 +26,36 @@ h1 {
   margin: 0 auto;
   max-width: 1440px;
 }
+
+.produc-card {
+  display: flex;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1em;
+  margin:0 auto;
+  max-width: 1440px;
+}
+
+.produc-img {
+  width: 100%;
+  max-width: 800px;
+  border-radius: 5%;
+  background-color: #7458b4;
+}
+
+.produc-title{
+  text-align: left;
+  font-size: 2em;
+  color: #439784;
+}
+
+.produc-description {
+  line-height: 1.5em;
+  text-align: left;
+}
+
+.buy-buttom {
+  display: flex;
+  padding: 0.5em .75em;
+  margin: 0 auto;
+  background-color: #ffc4d0;
+}
